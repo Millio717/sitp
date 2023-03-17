@@ -1,5 +1,6 @@
 body {
     font-family: 'Manrope', sans-serif;
+    background-color: #F5F5F5;
 }
 img {
     display: block;
@@ -99,6 +100,9 @@ p.about__us {
     color: #121212;
 }
 h2.about__text {
+    line-height: 61.47px;
+    max-width: 1048px;
+    width: 100%;
     font-size: 42px;
     font-weight: 400;
     margin-bottom: 30px;

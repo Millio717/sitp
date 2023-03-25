@@ -26,7 +26,9 @@ a {
 .header {
     margin-bottom: 73.76px;
 }
-
+ul li {
+    cursor: pointer;
+}
 .nav a {
     text-decoration: none;
     color: #121212;
@@ -45,9 +47,10 @@ a {
     font-weight: 400;
     text-transform: uppercase;
     margin-top: 4px;
-    margin-left: 60px;
+    margin-left: 56px;
 }
 .nav__link:hover {
+    transition: 0.51s;
     text-underline-offset: 6.4px;
     font-size: 18px;
     font-weight: 400;
@@ -69,6 +72,7 @@ a {
     width: 100%;
     font-size: 60px;
     font-weight: 400;
+    letter-spacing: -2px;
 }
 .intro__image-first img{
     position: absolute;
@@ -80,27 +84,26 @@ a {
 .intro__text-first {
     max-width: 430px;
     position: relative;
-    top: 362px;
+    top: 377px;
     left: 40px;
-    
-}
-.intro__p-first {
-    font-size: 20px;
+    font-size: 19px;
+    line-height: 27.32px;
     font-weight: 400;
     color: #fff;
+    
 }
 /*about*/
 .about {
     margin-bottom: 150px;
 }
-p.about__us {
+h2.about__us {
     margin-bottom: 30px;
     font-size: 18px;
     font-weight: 400;
     color: #121212;
 }
 h2.about__text {
-    line-height: 61.47px;
+    line-height: 62.47px;
     max-width: 1048px;
     width: 100%;
     font-size: 42px;
@@ -161,6 +164,7 @@ h2.project__title {
     margin: 0 auto;
 }
 .project__button {
+    
     color: #AD1818;
     font-size: 30px;
     font-weight: 400;
@@ -172,25 +176,9 @@ h2.project__title {
     cursor: pointer;
 }
 .project__button:hover {
-    transform: rotateZ(2160deg);
-    box-shadow: inset 0 0 0 23px #53ea93;
-    color: pink;
-    background-color: yellow;
-    transition: 3s;
-    border-top: solid 2px green;
-    border-bottom: solid 2px blue;
-    border-right: solid 2px orange;
-    border-left: solid 2px pink;
-    border-radius: 100%;
-    box-shadow:
-    1px 1px #53ea93,
-    2px 2px #53ea93,
-    3px 3px #53ea93,
-    4px 4px #53ea93,
-    5px 5px #53ea93,
-    6px 6px #53ea93,
-    7px 7px #53ea93;
-
+    color: #fff;
+    background-color: #AD1818;
+    transition: 0.81s;
 }
 /*Services*/
 .services__title {
@@ -226,20 +214,19 @@ h2.project__title {
 .wrapper__services-bed {
     margin-bottom: 801px;
 }
-.services__text-bed h3 {
-    font-size: 30px;
-    font-weight: 400;
-    color: #fff;
-}
 .services__image-bed{
     position: absolute;
 }
 .services__text-bed {
+    line-height: 40.98px;
     width: 460px;
     position: relative;
     z-index: 1000;
     left: 125px;
     top: 545px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
 }
 /*Contact*/
 .contact {
@@ -251,6 +238,7 @@ h2.project__title {
     margin-bottom: 13px;
 }
 .contact__text {
+    text-transform: uppercase;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 32px;
@@ -261,6 +249,7 @@ h2.project__title {
     color: #121212;
 }
 .contact__number:hover {
+    transition: 0.81s;
     color: #8a5607;
 }
 .contact__email {
@@ -274,6 +263,7 @@ h2.project__title {
     line-height: 80px;
 }
 .contact__email:hover {
+    transition: 0.81s;
     color: blue;
 }
 /*footer*/
@@ -285,8 +275,20 @@ h2.project__title {
     padding-top: 60px;
     background-color: #121212;
 }
-.footer__first-child a {
+.footer__links {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__first-child {
     margin-left: 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.footer__first-child:hover {
+    transition: 0.81s;
+    opacity: 50%;
 }
 .footer__link {
     font-size: 18px;
@@ -295,7 +297,8 @@ h2.project__title {
     margin-left: 60px;
     color: #fff;
 }
-a.footer__link:hover {
+.footer__link:hover {
+    transition: 0.51s;
     opacity: 50%;    
 }
 .footer__links {

@@ -9,9 +9,11 @@ img {
     cursor: pointer;
 }
 .container {
+    background-color: #fff;
     max-width: 1150px;
     width: 100%;
     margin: 0 auto;
+
 }
 a {
     cursor: pointer;
@@ -61,7 +63,7 @@ ul li {
 }
 /*intro*/
 .intro {
-    margin-bottom: 150px;
+    margin-bottom: 155px;
 }
 .intro__wrapper {
     height: 500px;
@@ -72,7 +74,7 @@ ul li {
     width: 100%;
     font-size: 60px;
     font-weight: 400;
-    letter-spacing: -2px;
+    letter-spacing: -1.8px;
 }
 .intro__image-first img{
     position: absolute;
@@ -84,17 +86,18 @@ ul li {
 .intro__text-first {
     max-width: 430px;
     position: relative;
-    top: 377px;
+    top: 378px;
     left: 40px;
     font-size: 19px;
     line-height: 27.32px;
+    letter-spacing: -0.1px;
     font-weight: 400;
     color: #fff;
     
 }
 /*about*/
 .about {
-    margin-bottom: 150px;
+    margin-bottom: 149px;
 }
 h2.about__us {
     margin-bottom: 30px;
@@ -106,8 +109,9 @@ h2.about__text {
     line-height: 62.47px;
     max-width: 1048px;
     width: 100%;
-    font-size: 42px;
+    font-size: 43px;
     font-weight: 400;
+    letter-spacing: -0.299px;
     margin-bottom: 30px;
 }
 .about__button {
@@ -132,12 +136,13 @@ h2.about__text {
 }
 .projects__main-title {
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 400;
     margin-bottom: 30px;
 }
 .project__first {
     margin-bottom: 90px;
+    margin-top: 38px;
 }
 .project__image img{
     max-width: 1150px;
@@ -147,7 +152,9 @@ h2.about__text {
 h2.project__title {
     font-size: 30px;
     font-weight: 400;
-    margin-bottom: 15px;
+    margin-bottom: 21px;
+    margin-top: 25px;
+    letter-spacing: -1px;
 }
 .projects__more {
     cursor: pointer;
@@ -155,6 +162,7 @@ h2.project__title {
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 90px;
+    letter-spacing: -0.4px;
 }
 .projects__more:hover {
     border-bottom: solid 1px #dba718;
@@ -164,16 +172,17 @@ h2.project__title {
     margin: 0 auto;
 }
 .project__button {
-    
     color: #AD1818;
     font-size: 30px;
     font-weight: 400;
     display: flex;
     justify-content: center;
-    padding-top: 56px;
-    padding-bottom: 56px;
+    padding-top: 61px;
+    padding-bottom: 60px;
+    margin-top: 93px;
     border: solid 1px #AD1818;
     cursor: pointer;
+    letter-spacing: -0.9px;
 }
 .project__button:hover {
     color: #fff;

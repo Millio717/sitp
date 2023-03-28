@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Manrope', sans-serif;
     background-color: #F5F5F5;
@@ -13,16 +14,10 @@ img {
     max-width: 1150px;
     width: 100%;
     margin: 0 auto;
-
 }
 a {
     cursor: pointer;
     text-decoration: none;
-}
-.container__second {
-    max-width: 1400px;
-    width: 100%;
-    background-color: #121212;
 }
 /*header*/
 .header {
@@ -127,7 +122,10 @@ h2.about__text {
 .about__button:hover {
     transition: 0.8s;
     background-color: #fff;
+    border-left: 3px dotted #ef40b0;
+    border-right: 3px dotted #ef40b0;
     color: #AD1818;
+    background-color: rgb(226, 226, 196);
 }
 /*projects*/
 
@@ -184,13 +182,20 @@ h2.project__title {
     cursor: pointer;
     letter-spacing: -0.9px;
 }
+* {
+    border: 0;
+}
 .project__button:hover {
     color: #fff;
     background-color: #AD1818;
     transition: 0.81s;
 }
 /*Services*/
+.services {
+    background-color: #121212;
+}
 .services__title {
+    background-color: #121212;
     text-transform: uppercase;
     color: #fff;
     font-size: 18px;
@@ -198,7 +203,27 @@ h2.project__title {
     padding-top: 151px;
     padding-bottom: 34px;
 }
+.bedroom {
+    margin-bottom: 150px;
+    background-image: url(../photos/Rectangle\ 5.png);
+    height: 717px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.bedroom__text {
+        position: absolute;
+        width: 443px;
+        bottom: 60px;
+        left: 125px;
+        font-size: 30px;
+        line-height: 41px;
+        letter-spacing: -0.03em;
+        color: #FFFFFF;
+}
 .wrapper__services {
+    background-color: #121212;
     padding-bottom: 60px;
     display: flex;
     flex-direction: column;
@@ -215,27 +240,11 @@ h2.project__title {
     font-weight: 400;
 }
 .wrapper__services-last {
+    background-color: #121212;
     padding-bottom: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.wrapper__services-bed {
-    margin-bottom: 801px;
-}
-.services__image-bed{
-    position: absolute;
-}
-.services__text-bed {
-    line-height: 40.98px;
-    width: 460px;
-    position: relative;
-    z-index: 1000;
-    left: 125px;
-    top: 545px;
-    font-size: 30px;
-    font-weight: 400;
-    color: #fff;
 }
 /*Contact*/
 .contact {
